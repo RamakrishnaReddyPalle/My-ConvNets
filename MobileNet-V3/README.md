@@ -87,9 +87,9 @@ MobileNetV3 comes in two configurations: **Large** and **Small**. Each configura
     cd "My-ConvNets/MobileNet-V3"
     ```
 2. **Install Requirements in your virtual environment**:
-```sh
-pip install -r requirements.txt
-```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 4. **Run the Example Notebook**:
     Open and run `Module_Deonstration_Example.ipynb` to see the model in action with a sample input image.
