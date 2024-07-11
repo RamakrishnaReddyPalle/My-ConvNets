@@ -7,7 +7,6 @@ This repository is dedicated to my interest in the in-depth study of various con
 - [MobileNetV3](#mobilenetv3)
   - [Configurations](#configurations)
   - [Architecture](#architecture)
-- [Requirements](#requirements)
 - [Usage](#usage)
 - [Future Work](#future-work)
 - [References](#references)
