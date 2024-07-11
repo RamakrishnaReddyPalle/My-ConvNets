@@ -31,7 +31,7 @@ MobileNetV3 comes in two configurations: **Large** and **Small**. Each configura
 
 
 
-##### **Parameters Table**
+**Parameters Table**
 
 **Large Configuration:**
 
