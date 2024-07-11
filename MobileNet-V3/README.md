@@ -20,20 +20,17 @@ This repository is created to learn in-depth about various ConvNets. MobileNetV3
 
 
 # **MobileNetV3**
-### **Architecture**
+### **Architecture:**
 MobileNetV3 combines depthwise separable convolutions and lightweight attention modules to achieve efficient performance. The **Large** model is designed for higher accuracy, while the **Small** model is optimized for speed and low resource usage.
 
-#### **MobileNet-V3 Block**
+### **MobileNet-V3 Block:**
 ![monilenetv3_block](https://github.com/RamakrishnaReddyPalle/My-ConvNets/assets/137872198/22531b89-1c41-42f1-9036-ffeead1f32c7)
 
-#### **Configurations**
+### **Configurations:**
 MobileNetV3 comes in two configurations: **Large** and **Small**. Each configuration is tailored for different resource constraints and performance requirements.
 
 
-
-**Parameters Table**
-
-**Large Configuration:**
+**Large Configuration Parameters:**
 
 | Input        | Operator      | exp size | \#out | SE  | NL  | s  |
 |--------------|---------------|----------|-------|-----|-----|----|
@@ -60,7 +57,7 @@ MobileNetV3 comes in two configurations: **Large** and **Small**. Each configura
 
 *Table 1. Specification for MobileNetV3-Large. SE denotes whether there is a Squeeze-And-Excite in that block. NL denotes the type of nonlinearity used. Here, HS denotes h-swish and RE denotes ReLU. NBN denotes no batch normalization. s denotes stride.*
 
-**Small Configuration:**
+**Small Configuration parameters:**
 
 | Input        | Operator      | exp size | \#out | SE  | NL  | s  |
 |--------------|---------------|----------|-------|-----|-----|----|
