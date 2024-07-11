@@ -2,7 +2,7 @@
 
 This repository is dedicated to my interest in the in-depth study of various convolutional neural networks (ConvNets), starting with MobileNetV3 (with the background of V1 and V2. The goal is to understand the architecture, implementation, and performance of these models. Future repositories will cover other significant ConvNets like EfficientNet.
 
-## **Table of Contents**
+# **Table of Contents**
 - [Introduction](#introduction)
 - [MobileNetV3](#mobilenetv3)
   - [Configurations](#configurations)
@@ -12,14 +12,14 @@ This repository is dedicated to my interest in the in-depth study of various con
 - [Future Work](#future-work)
 - [References](#references)
 
-## **Introduction**
+# **Introduction**
 This repository is created to learn in-depth about various ConvNets. MobileNetV3 is the first model explored here. MobileNetV3 is known for its efficiency and performance in mobile and embedded vision applications. The repository includes:
 - Scripts and modules to define MobileNetV3
 - Example notebook to demonstrate blocks & model usage
 - Configuration files for model parameters
 
 
-## **MobileNetV3**
+# **MobileNetV3**
 ### **Architecture**
 MobileNetV3 combines depthwise separable convolutions and lightweight attention modules to achieve efficient performance. The **Large** model is designed for higher accuracy, while the **Small** model is optimized for speed and low resource usage.
 
@@ -83,24 +83,22 @@ MobileNetV3 comes in two configurations: **Large** and **Small**. Each configura
 
 *Table 2. Specification for MobileNetV3-Small. See Table 1 for descriptions of the columns.*
 
-## **Requirements**
-Ensure you have the necessary libraries installed. You can use the provided `requirements.txt` file to set up your environment.
 
+# **Usage**
+1. **Clone the Repository**:
+    ```sh
+    git clone https://github.com/RamakrishnaReddyPalle/My-ConvNets.git
+    cd "My-ConvNets/MobileNet-V3"
+    ```
+2. **Install Requirements in your virtual environment**:
 ```sh
 pip install -r requirements.txt
 ```
 
-## **Usage**
-1. **Clone the Repository**:
-    ```sh
-    git clone https://github.com/yourusername/mobilenetv3-exploration.git
-    cd mobilenetv3-exploration
-    ```
+4. **Run the Example Notebook**:
+    Open and run `Module_Deonstration_Example.ipynb` to see the model in action with a sample input image.
 
-2. **Run the Example Notebook**:
-    Open and run `example.ipynb` to see the model in action with a sample input image.
-
-3. **Model Summary**:
+5. **Model Summary**:
     Use the `main.py` and the `sample_image.jpg` script to see the model summary.
 
 ## Future Work
