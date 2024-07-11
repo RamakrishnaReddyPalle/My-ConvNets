@@ -24,7 +24,7 @@ This repository is created to learn in-depth about various ConvNets. MobileNetV3
 MobileNetV3 combines depthwise separable convolutions and lightweight attention modules to achieve efficient performance. The **Large** model is designed for higher accuracy, while the **Small** model is optimized for speed and low resource usage.
 
 #### **Block**
-![MobileNetV3 Block](images/mobilenetv3_large.png)
+![MobileNetV3 Block](mobilenetv3_block.jpg)
 
 
 #### **Configurations**
