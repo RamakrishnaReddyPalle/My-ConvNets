@@ -23,9 +23,8 @@ This repository is created to learn in-depth about various ConvNets. MobileNetV3
 ### **Architecture**
 MobileNetV3 combines depthwise separable convolutions and lightweight attention modules to achieve efficient performance. The **Large** model is designed for higher accuracy, while the **Small** model is optimized for speed and low resource usage.
 
-#### **Block**
-![MobileNetV3 Block](My-ConvNets/MobileNet-V3/mobilenetv3_block.jpg)
-
+#### **MobileNet-V3 Block**
+![monilenetv3_block](https://github.com/RamakrishnaReddyPalle/My-ConvNets/assets/137872198/22531b89-1c41-42f1-9036-ffeead1f32c7)
 
 #### **Configurations**
 MobileNetV3 comes in two configurations: **Large** and **Small**. Each configuration is tailored for different resource constraints and performance requirements.
