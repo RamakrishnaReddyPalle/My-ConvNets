@@ -1,4 +1,4 @@
-# **EfficientNet - V1***
+# ***EfficientNet - V1***
 *Architecture exploration*
 
 - Modular coding yet to be done
